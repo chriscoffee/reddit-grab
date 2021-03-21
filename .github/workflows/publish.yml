@@ -1,7 +1,8 @@
 name: Publish Docker image
 on:
-  branch:
-    - registry
+  push:
+    branches:
+      - registry
 
 jobs:
   push_to_registry:
